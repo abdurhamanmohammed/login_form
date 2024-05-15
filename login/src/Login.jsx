@@ -26,7 +26,7 @@ function Login() {
                  
                     <div>
                         <label htmlFor="email">Email</label>
-                        <input type="text" autoComplete="off" name="email" placeholder="Enter Email" onChange={(e)=>setEmail(e.target.value)}/>
+                        <input type="text" autoComplete="off" name="email"  placeholder="Enter Email" onChange={(e)=>setEmail(e.target.value)}/>
                     </div>
                     <div>
                         <label htmlFor="name">Password</label>

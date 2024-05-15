@@ -22,15 +22,15 @@ const navigate=useNavigate();
             <form onSubmit={handlesubmit}>
                 <div>
                     <label htmlFor="name">Name</label>
-                    <input type="text" autoComplete="off" name="name" placeholder="Enter Name" onChange={(e)=>setName(e.target.value)}/>
+                    <input type="text" autoComplete="off" required name="name" placeholder="Enter Name" onChange={(e)=>setName(e.target.value)}/>
                 </div>
                 <div>
                     <label htmlFor="email">Email</label>
-                    <input type="text" autoComplete="off" name="email" placeholder="Enter Email" onChange={(e)=>setEmail(e.target.value)}/>
+                    <input type="text" autoComplete="off" required name="email" placeholder="Enter Email" onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div>
                     <label htmlFor="name">Password</label>
-                    <input type="text" name="password" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
+                    <input type="text" name="password" required placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
                 </div>
                 <button type="submit">Register</button>
                 </form>
