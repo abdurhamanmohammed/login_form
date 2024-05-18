@@ -15,7 +15,9 @@ function Home() {
     .catch(err=>console.log(err))
   },[])
   return (
-    <div>Home component</div>
+    <div>
+      <h1 >Dashboared</h1>
+    </div>
   )
 }
 

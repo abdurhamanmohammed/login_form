@@ -30,7 +30,7 @@ const navigate=useNavigate();
                 </div>
                 <div>
                     <label htmlFor="name">Password</label>
-                    <input type="text" name="password" required placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
+                    <input type="password" name="password" required placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
                 </div>
                 <button type="submit">Register</button>
                 </form>

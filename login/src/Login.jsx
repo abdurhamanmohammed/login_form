@@ -32,7 +32,7 @@ function Login() {
                     </div>
                     <div>
                         <label htmlFor="name">Password</label>
-                        <input type="text" name="password" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
+                        <input type="password" name="password" placeholder="Enter password" onChange={(e)=>setPassword(e.target.value)}/>
                     </div>
                     <button type="submit">Login</button>
                     </form>
