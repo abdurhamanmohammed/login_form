@@ -16,7 +16,7 @@ function Home() {
   },[])
   return (
     <div>
-      <h1 >Dashboared</h1>
+      <h1 className='dashborad'>Dashboared</h1>
     </div>
   )
 }

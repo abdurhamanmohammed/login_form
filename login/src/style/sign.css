@@ -64,3 +64,9 @@ p{
     border: none;
     text-decoration: none;
 }
+.dashborad{
+    text-align: center;
+    font-size: 8cqb;
+    font-weight: 800;
+    padding-top: 150px;
+}
